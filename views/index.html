@@ -1,0 +1,212 @@
+<!-- 
+/*
+ * @Author: Francisco Arenas 
+ * @Creation_Date: 2021-08-24
+ */ 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Francisco" content="practice #1 of the web development course">
+    <title>Project #1</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/quotes.css">
+</head>
+
+<body style="background-image: url('images/Background.png'); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <div class="header-container">
+        <div class="row">
+            <div class="col-12">
+                <h1 style="text-align: center; margin: 0px;">Práctica #1</h1>
+                <h3 style="text-align: center; font-size: 13px; margin: 5px;">Página creada con ❤️ por Francisco Arenas Enciso</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-image-container">
+        <div class="row">
+            <div class="col-12">
+                <img src="images/Main_Product_Image.png" class="img-fluid" alt="Book image">
+            </div>
+        </div>
+    </div>
+
+    <div class="summary-image-container" style="background-color: #E1E0DF;">
+        <hr style="height:0.5mm;color: transparent">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <hr style="height:0.5mm;color: transparent">
+                <p class="text-md-start"> 
+                    Written by Svetlana Alexievich, this book is composed of the voices of over 500 women describing in their own words their lives during the Soviet Union’s Great 
+                    Patriotic War against Nazi Germany, what sets this work apart is its centering women in the violence of war not only as victims, 
+                    but combatants.
+                </p>
+
+                <p class="text">
+                    Read more about the <a href="https://www.nobelprize.org/prizes/literature/2015/alexievich/biographical/" class="text-decoration-none">author</a>
+                </p>
+            </div>
+            <div class="col-5 text-center">
+                <img src="images/context_image.jpg" class="img-fluid rounded float-start" alt="Soldiers photo">
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <hr style="height:0.5mm;color: transparent">
+    </div>
+    
+
+    <div class="quotes-container" style="background-color: #8E4136;">
+        <hr style="height:0.5cm;color: transparent">
+        <div class="row">    
+            <div class="col-sm-4 mx-auto">                
+                 <!-- CUSTOM BLOCKQUOTE From: https://bootstrapious.com/p/bootstrap-quote -->
+                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded" cite="https://www.nationalww2museum.org/war/articles/book-review-unwomanly-face-war-svetlana-alexievich">
+                    <div class="blockquote-custom-icon bg-info shadow-sm">
+                        <i class="fa fa-quote-left text-white"></i>
+                    </div>
+
+                    <p class="mb-0 mt-2 font-italic">
+                        Perhaps no one has documented the immersion of women in a total war like Svetlana Alexievich in [this] book. 
+                    </p>
+
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">
+                        Huxen, K., <cite title="Source Title">National World War II Museum</cite>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <div class="col-sm-4 mx-auto">
+                <!-- CUSTOM BLOCKQUOTE From: https://bootstrapious.com/p/bootstrap-quote -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded" cite="https://www.theguardian.com/books/2017/aug/02/unwomanly-face-of-war-svetlana-alexievich-review">
+                    <div class="blockquote-custom-icon bg-info shadow-sm">
+                        <i class="fa fa-quote-left text-white"></i>
+                    </div>
+
+                    <p class="mb-0 mt-2 font-italic">
+                        This is oral history at its finest and it is also an essay on the power of memory, on what is remembered and what is forgotten. “It’s terrible to remember,” one woman told her. 
+                        “But it’s far more terrible to forget.”
+                    </p>
+
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">
+                        Moorehead, C., <cite title="Source Title">The Guardian</cite>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <div class="col-sm-4 mx-auto">
+                <!-- CUSTOM BLOCKQUOTE From: https://bootstrapious.com/p/bootstrap-quote -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded" cite="https://www.nytimes.com/2017/08/18/books/review/svetlana-alexievich-the-unwomanly-face-of-war.html">
+                    <div class="blockquote-custom-icon bg-info shadow-sm">
+                        <i class="fa fa-quote-left text-white"></i>
+                    </div>
+
+                    <p class="mb-0 mt-2 font-italic">
+                        Alexievich gives the lie to any assumption that war need be an “unwomanly” business.
+                    </p>
+
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">
+                        Reich, R., <cite title="Source Title">NY Times</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        <hr style="height:0.5mm;color: transparent">
+    </div>
+
+    <div class="buy-table-container" style="background-color: #c3cbd4;">
+        <hr style="height:0.5mm;color: transparent">
+        <div class="row">
+            <div class="col-12">
+                <h6><b>You can buy the book in the following stores:</b></h6>
+        
+                <table class="table table-borderless table-hover table-fixed text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Store</th>
+                            <th>Price (MXN)</th>
+                            <th>Buy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="store_1">Amazon MX</td>
+                            <td id="price_1">$229</td>
+                            <td>
+                                <button id="store_link_1" class="btn btn-outline-success" onclick="location.href='https://www.amazon.com.mx/guerra-tiene-rostro-mujer/dp/607317442X/ref=asc_df_607317442X/?tag=gledskshopmx-20&linkCode=df0&hvadid=322484198829&hvpos=&hvnetw=g&hvrand=14988711749671023557&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031214&hvtargid=pla-600021207776&psc=1'">Go to shop</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td id="store_2">Mercado Libre</td>
+                            <td id="price_2">$349</td>
+                            <td>
+                                <button id="store_link_2" class="btn btn-outline-success" onclick="location.href='https://articulo.mercadolibre.com.mx/MLM-955336685-la-guerra-no-tiene-rostro-de-mujer-_JM?matt_tool=65890526&matt_word=&matt_source=google&matt_campaign_id=11721662054&matt_ad_group_id=116775494794&matt_match_type=&matt_network=g&matt_device=c&matt_creative=482774604425&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=322568880&matt_product_id=MLM955336685&matt_product_partition_id=354485897216&matt_target_id=aud-1185767631836:pla-354485897216&gclid=Cj0KCQjw1dGJBhD4ARIsANb6OdmcOkJGkzCUCFfrSmNjHNlyviJt9Qpf3z1l6S9lpPLK6liRxChWj_0aAt_fEALw_wcB'">Go to shop</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td id="store_3">Librerias Gandhi</td>
+                            <td id="price_3">$225</td>
+                            <td>
+                                <button id="store_link_3" class="btn btn-outline-success" onclick="location.href='https://www.gandhi.com.mx/la-guerra-no-tiene-rostro-de-mujer-3?gclid=Cj0KCQjw1dGJBhD4ARIsANb6OdnAEI59qePQGglVVo51TSSYc-3EwZeFufAR5s3giu1S8liLArLNAVIaAqBUEALw_wcB'">Go to shop</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td id="store_4">Busca Libre</td>
+                            <td id="price_4">$447</td>
+                            <td>
+                                <button id="store_link_4" class="btn btn-outline-success" onclick="location.href='https://www.buscalibre.com.mx/libro-la-guerra-no-tiene-rostro-de-mujer-alexievich-svetlana-debate/9789588931159/p/47008690?gclid=Cj0KCQjw1dGJBhD4ARIsANb6OdmKPnc1uiEUKX_qgvfZ6en3lhpIMl64EVNLPig12iTQpLfMrvZm4eIaAtmoEALw_wcB'">Go to shop</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="change-table" style="background-color: #c3cbd4;">
+        <div class="row">
+            <div class="col -6 text-end">
+                <button type="button" id="prev_button" class="btn btn-info btn-sm"> See stores (1-4) </button>
+            </div>
+            <div class="col -6 text-start">
+                <button type="button" id="next_button" class="btn btn-info btn-sm"> See stores (5-8) </button>
+            </div>
+        </div>
+        <hr style="height:0.5mm;color: transparent">
+    </div>
+
+    <div class="footer-container" style="background-color: #c4d4d5;">
+        <hr style="height:0.5mm;color: transparent">
+        <div class="row">
+            <div class="col-6 text-center">
+                <h6><b>Comments</b></h6>
+                <a href="formulary"><button type="button" id="comment_button" class="btn btn-primary btn-lg">Express yourself</button></a>
+            </div>
+            <div class="col-6 text-center">
+                <div class="row">
+                <h6><b>Contact information</b></h6>
+                    <div class="col-6 text-end">
+                        <button onmouseover="alert('mail address: a01369122@itesm.mx')" style="border: 0ch; background-color: transparent;"><img src="images/Mail_icon.png" alt="Mail_logo" height="50" width="50"></button>
+                    </div>
+
+                    <div class="col-6 text-start">
+                        <a href="https://github.com/FA0AE"><img src="images/Github_logo.png" alt="Github_logo" height="50" width="50"></a>
+                    </div>
+                </div>               
+        </div>
+        <hr style="height:0.5mm;color: transparent">
+    </div>
+
+    <!-- JS Bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/table_changer.js"></script>
+</body>
+
+</html>
